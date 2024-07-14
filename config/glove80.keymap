@@ -599,8 +599,8 @@ combos {
             &kp EQUAL         &kp N1        &kp N2        &kp N3          &kp N4  &kp N5                                                                                    &kp N6                              &kp N7        &kp N8          &kp N9         &kp N0      &trans
               &kp TAB          &kp W         &kp F         &AK_M           &AK_P   &kp V                                                                            &as FSLH COMMA                        &as AMPS DOT         &kp Q  &as QMARK EXCL    &as DQT SQT       &kp Z
                &trans  &hm_l LCTRL R  &hm_l LALT S  &hm_l LGUI N  &hm_l LSHIFT T   &AK_B                                                                            &as COLON SEMI  &hm_r_aka RSHIFT MACRO_PLACEHOLDER  &hm_r RGUI E    &hm_r LALT I  &hm_r RCTRL H       &kp J
-            &kp LC(A)          &kp X         &AK_C         &kp L           &AK_D   &AK_G   &lt 4 ESC      &kp DEL  &kp BSPC  &kp SPACE  &kp LSHFT      &kp RET  &as KP_MINUS UNDER                               &AK_U         &kp O           &kp Y          &kp K   &kp PG_UP
- &magic LAYER_Magic 0       &kp LEFT        &kp UP      &kp DOWN       &kp RIGHT          &lt 5 BSPC  &lt 3 LSHFT    &lower     &lower  &lt 6 TAB  &lt 2 SPACE                                                &kp LEFT      &kp DOWN          &kp UP      &kp RIGHT   &kp PG_DN
+            &kp LC(A)          &kp X         &AK_C         &kp L           &AK_D   &AK_G   &lt 4 ESC      &kp DEL  &kp BSPC  &kp SPACE  &kp LSHFT      &kp TAB  &as KP_MINUS UNDER                               &AK_U         &kp O           &kp Y          &kp K   &kp PG_UP
+ &magic LAYER_Magic 0       &kp LEFT        &kp UP      &kp DOWN       &kp RIGHT          &lt 5 BSPC  &lt 3 LSHFT    &lower     &lower  &lt 6 RET  &lt 2 SPACE                                                &kp LEFT      &kp DOWN          &kp UP      &kp RIGHT   &kp PG_DN
             >;
         };
 
