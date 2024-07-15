@@ -955,23 +955,23 @@ SELECT_LINE_CONT_MACRO(cont_sel_ln_bwd_mac, SEL(UP), MAC_SEL_START_OF_LN)
 
         layer_SelectCont {
             bindings = <
-  &none   &none   &none   &none   &none                                                                                 &none                 &none                 &none                &trans  &trans
-  &none   &none   &none   &none   &none   &none                                                   &none                 &none                 &none                 &none                &trans  &trans
-  &none  &trans  &trans  &trans  &trans  &trans                                                  &trans                &trans                &trans                &trans                &trans   &none
-  &none  &trans  &trans  &trans  &trans  &trans                                                  &trans                &trans                &trans                &trans                &trans   &none
-  &none  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none   &none   &none  &trans  &cont_sel_wd_bwd_mac  &cont_sel_ln_fwd_mac  &cont_sel_ln_bwd_mac  &cont_sel_wd_fwd_mac  &trans   &none
- &trans   &none   &none   &none   &none          &trans  &trans   &none   &none  &trans  &trans                         &none                 &none                 &none                 &none   &none
+  &trans   &trans   &trans   &trans   &trans                                                                                 &trans                 &trans                 &trans                &trans  &trans
+  &trans   &trans   &trans   &trans   &trans   &trans                                                   &trans                 &trans                 &trans                 &trans                &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans                &trans                &trans                &trans                &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans                &trans                &trans                &trans                &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans   &trans  &trans  &cont_sel_wd_bwd_mac  &cont_sel_ln_fwd_mac  &cont_sel_ln_bwd_mac  &cont_sel_wd_fwd_mac  &trans   &trans
+ &trans   &trans   &trans   &trans   &trans          &trans  &trans   &trans   &trans  &trans  &trans                         &trans                 &trans                 &trans                 &trans   &trans
             >;
         };
 
         layer_SelectContSL {
             bindings = <
-  &none   &none   &none   &none   &none                                                                   &none   &none   &none  &trans  &trans
-  &none   &none   &none   &none   &none   &none                                                   &none   &none   &none   &none  &trans  &trans
-  &none  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans   &none
-  &none  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans   &none
-  &none  &trans  &trans  &trans  &trans  &trans  &trans   &none   &none   &none   &none  &trans  &trans  &trans  &trans  &trans  &trans   &none
- &trans   &none   &none   &none   &none          &trans  &trans   &none   &none  &trans  &trans           &none   &none   &none   &none   &none
+  &trans   &trans   &trans   &trans   &trans                                                                   &trans   &trans   &trans  &trans  &trans
+  &trans   &trans   &trans   &trans   &trans   &trans                                                   &trans   &trans   &trans   &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans   &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans
+ &trans   &trans   &trans   &trans   &trans          &trans  &trans   &trans   &trans  &trans  &trans           &trans   &trans   &trans   &trans   &trans
             >;
         };
 
